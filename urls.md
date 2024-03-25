@@ -1,10 +1,9 @@
 
-https://github.com/Yoon-97 (하윤철)
-https://github.com/ChaeyeonHan (한채연)
+https://github.com/Yoon-97/Yoon-97 (하윤철)
+https://github.com/ChaeyeonHan/ChaeyeonHan (한채연)
 
 https://github.com/hyuna333 (김현아)
 https://github.com/Erlhon9 (김태홍)
-
 
 
 https://kyeongseo90.github.io/kyeongseo90/
@@ -43,3 +42,5 @@ https://github.com/janjinn (박경진)
 https://github.com/ShinHeeEul (신희을)
 https://github.com/YangJinHyeok (양진혁)
 
+https://github.com/janjinn (박경진)
+https://github.com/soyalattee (박소연)
