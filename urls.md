@@ -35,9 +35,8 @@ https://github.com/janjinn (박경진)
 https://lemonticsoul.github.io/lemonticsoul (서제호)
 https://github.com/Jiyoongrace (배지윤)
 
-https://nahyeonnnn.github.io/Nahyeonnnn/(김나현)
-
-## 😮 김민중 : https://kmj-99.github.io/kmj-99/
+https://nahyeonnnn.github.io/Nahyeonnnn/(김나현)  
+https://kmj-99.github.io/kmj-99/ (김민중)
 
 ## 😵 김득호 : https://subsub97.github.io/subsub97/
 
