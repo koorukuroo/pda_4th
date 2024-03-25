@@ -37,11 +37,10 @@ https://github.com/janjinn (박경진)
 
 
 
-## 😑 김나현 : https://nahyeonnnn.github.io/Nahyeonnnn/
+https://nahyeonnnn.github.io/Nahyeonnnn/ (김나현)  
+https://kmj-99.github.io/kmj-99/ (김민중)  
+https://subsub97.github.io/subsub97/ (김득호)
 
-## 😮 김민중 : https://kmj-99.github.io/kmj-99/
-
-## 😵 김득호 : https://subsub97.github.io/subsub97/
 
 ## 이원규: https://onek-2.github.io/OneK-2/
 
