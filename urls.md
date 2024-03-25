@@ -38,3 +38,6 @@ https://github.com/YangJinHyeok (양진혁)
 
 https://github.com/janjinn (박경진)
 https://github.com/soyalattee (박소연)
+
+https://jiyoongrace.github.io/Jiyoongrace/ (배지윤)
+https://lemonticsoul.github.io/lemonticsoul/ (서제호)
