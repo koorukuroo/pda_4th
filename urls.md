@@ -1,2 +1,2 @@
-https://github.com/Yoon-97 (하윤철)
-https://github.com/ChaeyeonHan (한채연)
+https://sooyeon-kr.github.io/sooyeon-kr (오수연)
+https://jody816.github.io/jody816 (오재현)
