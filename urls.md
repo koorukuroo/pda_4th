@@ -39,3 +39,6 @@ https://github.com/janjinn (박경진)
 임세현: https://github.com/LimSeHyeon
 https://github.com/ShinHeeEul (신희을)
 https://github.com/YangJinHyeok (양진혁)
+
+강경민: https://yarkyungmin.github.io/YaRkyungmin/
+고유민: https://ymkdev.github.io/ymkdev/
