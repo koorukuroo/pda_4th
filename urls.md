@@ -1,3 +1,4 @@
+
 https://github.com/Yoon-97 (하윤철)
 https://github.com/ChaeyeonHan (한채연)
 
@@ -36,3 +37,5 @@ https://github.com/janjinn (박경진)
 
 이현주: https://github.com/Leehyeonju0219  
 임세현: https://github.com/LimSeHyeon
+https://github.com/ShinHeeEul (신희을)
+https://github.com/YangJinHyeok (양진혁)
