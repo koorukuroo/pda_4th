@@ -49,10 +49,9 @@ https://github.com/Jiyoongrace (배지윤)
 김윤경: https://do-yoongyo2.github.io/do-yoongyo2/
 
 이현주: https://github.com/Leehyeonju0219  
-임세현: https://github.com/LimSeHyeon
-
-<br> https://shinheeeul.github.io/ShinHeeEul/ (신희을)
-<br> https://yangjinhyeok.github.io/YangJinHyeok (양진혁)
+임세현: https://github.com/LimSeHyeon  
+https://shinheeeul.github.io/ShinHeeEul/ (신희을)  
+https://yangjinhyeok.github.io/YangJinHyeok (양진혁)  
 
 https://github.com/janjinn (박경진)
 https://github.com/soyalattee (박소연)
