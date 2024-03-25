@@ -58,3 +58,5 @@ https://yangjinhyeok.github.io/YangJinHyeok (양진혁)
 https://github.com/janjinn (박경진)
 https://github.com/soyalattee (박소연)
 
+https://yarkyungmin.github.io/YaRkyungmin/ (강경민)
+https://ymkdev.github.io/ymkdev/ (고유민)
