@@ -17,3 +17,7 @@ https://github.com/ChaeyeonHan (한채연)
 ## 😮 김민중 : https://kmj-99.github.io/kmj-99/
 
 ## 😵 김득호 : https://subsub97.github.io/subsub97/
+
+## 이원규: https://onek-2.github.io/OneK-2/
+
+## 이제윤: https://wpdbs1229.github.io/wpdbs1229/
