@@ -10,8 +10,8 @@ https://Erlhon9.github.io/Erlhon9/ (김태홍)
 https://github.com/sdc05103 (우채윤)
 https://github.com/yoonjaeuk (윤재욱)
 
-https://kyeongseo90.github.io/kyeongseo90/
-https://yapyap2.github.io/yapyap2/
+https://kyeongseo90.github.io/kyeongseo90/ (최경서)  
+https://yapyap2.github.io/yapyap2/ (정원우)
 
 https://jueunkim429.github.io/Jueunkim429/ (김주은)  
 https://narongkim.github.io/narongkim/ (김예진)  
