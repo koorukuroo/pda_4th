@@ -1,8 +1,6 @@
 https://Yoon-97.github.io/Yoon-97 (하윤철)   
 https://chaeyeonhan.github.io/ChaeyeonHan/ (한채연)
 
-https://github.com/Yoon-97/Yoon-97 (하윤철)
-https://github.com/ChaeyeonHan/ChaeyeonHan (한채연)
 
 https://hyuna333.github.io/hyuna333/ (김현아)  
 https://Erlhon9.github.io/Erlhon9/ (김태홍)
@@ -15,9 +13,6 @@ https://yapyap2.github.io/yapyap2/
 
 https://jueunkim429.github.io/Jueunkim429/ (김주은)  
 https://narongkim.github.io/narongkim/ (김예진)  
-
-https://github.com/Yoon-97 (하윤철)  
-https://github.com/ChaeyeonHan (한채연)  
 
 
 https://colde99.github.io/colde99/ (박찬란)  
