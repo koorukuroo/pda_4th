@@ -14,8 +14,7 @@ https://kyeongseo90.github.io/kyeongseo90/ (최경서)
 https://yapyap2.github.io/yapyap2/ (정원우)
 
 https://jueunkim429.github.io/Jueunkim429/ (김주은)  
-https://narongkim.github.io/narongkim/ (김예진)  
-
+https://narongkim.github.io/narongkim/ (김예진)
 
 https://colde99.github.io/colde99/ (박찬란)  
 https://wlsdk9803.github.io/wlsdk9803/ (박진아)
@@ -28,14 +27,11 @@ https://lemonticsoul.github.io/lemonticsoul (서제호)
 
 https://github.com/colde99/coldegg (박찬란)
 
-https://donginlee.github.io/donginLee/ (이동인)
+https://donginlee.github.io/donginLee/ (이동인)  
 https://phoebe125.github.io/Phoebe125/ (이선민)
 
 https://github.com/soyalattee (박소연)  
 https://github.com/janjinn (박경진)
-
-
-
 
 
 https://nahyeonnnn.github.io/Nahyeonnnn/ (김나현)  
