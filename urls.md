@@ -16,6 +16,9 @@ https://narongkim.github.io/narongkim/ (김예진)
 https://github.com/Yoon-97 (하윤철)  
 https://github.com/ChaeyeonHan (한채연)  
 
+https://github.com/KimRiun (김경륜)
+https://github.com/gariguri (김가언)
+
 
 
 
