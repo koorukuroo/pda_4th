@@ -32,12 +32,16 @@ https://janjinn.github.io/janjinn (박경진)
 
 ## 😵 김득호 : https://subsub97.github.io/subsub97/
 
+## 이원규: https://onek-2.github.io/OneK-2/
+
+## 이제윤: https://wpdbs1229.github.io/wpdbs1229/
 
 최지연: https://jiyeon5.github.io/jiyeon5/
 김윤경: https://do-yoongyo2.github.io/do-yoongyo2/
 
 이현주: https://github.com/Leehyeonju0219  
 임세현: https://github.com/LimSeHyeon
+
 <br> https://shinheeeul.github.io/ShinHeeEul/ (신희을)
 <br> https://yangjinhyeok.github.io/YangJinHyeok (양진혁)
 
