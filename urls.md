@@ -1,7 +1,4 @@
-(정원우)  https://yapyap2.github.io/yapyap2/
-(최경서)  https://kyeongseo90.github.io/kyeongseo90/
-
-https://Yoon-97.github.io/Yoon-97 (하윤철)
+https://Yoon-97.github.io/Yoon-97 (하윤철)   
 https://chaeyeonhan.github.io/ChaeyeonHan/ (한채연)
 
 https://hyuna333.github.io/hyuna333/ (김현아)
@@ -62,3 +59,5 @@ https://github.com/sktmdgus1212/sktmdgus1212/
 
 https://github.com/JangHoIk1    장호익  
 https://elandland.github.io/Elandland/    임찬솔
+https://yarkyungmin.github.io/YaRkyungmin/ (강경민)
+https://ymkdev.github.io/ymkdev/ (고유민)
