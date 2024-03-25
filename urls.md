@@ -15,12 +15,10 @@ https://yapyap2.github.io/yapyap2/ (정원우)
 https://jueunkim429.github.io/Jueunkim429/ (김주은)  
 https://narongkim.github.io/narongkim/ (김예진)  
 
-<<<<<<< HEAD
-=======
 
 https://colde99.github.io/colde99/ (박찬란)  
 https://wlsdk9803.github.io/wlsdk9803/ (박진아)
->>>>>>> e86951aeb18695c58ba90148613411891e934c06
+
 
 https://jiyoongrace.github.io/Jiyoongrace (배지윤)
 
