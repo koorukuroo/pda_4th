@@ -8,17 +8,21 @@ https://Erlhon9.github.io/Erlhon9/ (김태홍)
 https://github.com/sdc05103 (우채윤)
 https://github.com/yoonjaeuk (윤재욱)
 
-https://kyeongseo90.github.io/kyeongseo90/
-https://yapyap2.github.io/yapyap2/
+https://kyeongseo90.github.io/kyeongseo90/ (박경서)
+
+https://yapyap2.github.io/yapyap2/ (정원우)
 
 https://jueunkim429.github.io/Jueunkim429/ (김주은)  
 https://narongkim.github.io/narongkim/ (김예진)  
 
+<<<<<<< HEAD
+=======
 
 https://colde99.github.io/colde99/ (박찬란)  
 https://wlsdk9803.github.io/wlsdk9803/ (박진아)
+>>>>>>> e86951aeb18695c58ba90148613411891e934c06
 
-https://jiyoongrace.github.io/Jiyoongrace(배지윤)
+https://jiyoongrace.github.io/Jiyoongrace (배지윤)
 
 
 https://lemonticsoul.github.io/lemonticsoul (서제호)
@@ -34,8 +38,6 @@ https://github.com/janjinn (박경진)
 
 
 
-https://lemonticsoul.github.io/lemonticsoul (서제호)
-https://github.com/Jiyoongrace (배지윤)
 
 ## 😑 김나현 : https://nahyeonnnn.github.io/Nahyeonnnn/
 
