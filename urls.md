@@ -19,7 +19,7 @@ https://github.com/ChaeyeonHan (한채연)
 https://github.com/colde99/coldegg (박찬란)
 https://wlsdk9803.github.io/wlsdk9803/ (박진아)
 
-https://kimriun.github.io/KimRiun/ (김경륜)
+https://kimriun.github.io/KimRiun/ (김경륜)     
 https://gariguri.github.io/gariguri/ (김가언)
 
 
