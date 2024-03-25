@@ -78,6 +78,6 @@ https://github.com/sktmdgus1212/sktmdgus1212/
 
 https://github.com/JangHoIk1    장호익  
 https://github.com/Elandland    임찬솔
-https://yarkyungmin.github.io/YaRkyungmin/ (강경민)
+https://yarkyungmin.github.io/YaRkyungmin/ (강경민)  
 https://ymkdev.github.io/ymkdev/ (고유민)
 
