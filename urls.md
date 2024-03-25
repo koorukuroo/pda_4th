@@ -16,6 +16,10 @@ https://narongkim.github.io/narongkim/ (김예진)
 https://github.com/Yoon-97 (하윤철)  
 https://github.com/ChaeyeonHan (한채연)  
 
+
+https://donginlee.github.io/donginLee/ (이동인)
+https://phoebe125.github.io/Phoebe125/ (이선민)
+
 https://github.com/soyalattee (박소연)
 https://github.com/janjinn (박경진)
 
