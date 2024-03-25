@@ -2,8 +2,8 @@
 https://github.com/Yoon-97/Yoon-97 (하윤철)
 https://github.com/ChaeyeonHan/ChaeyeonHan (한채연)
 
-https://github.com/hyuna333 (김현아)
-https://github.com/Erlhon9 (김태홍)
+https://hyuna333.github.io/hyuna333/ (김현아)
+https://Erlhon9.github.io/Erlhon9/ (김태홍)
 
 
 https://kyeongseo90.github.io/kyeongseo90/
