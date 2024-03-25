@@ -14,12 +14,14 @@ https://jueunkim429.github.io/Jueunkim429/ (김주은)
 https://narongkim.github.io/narongkim/ (김예진)  
 
 https://github.com/colde99/coldegg (박찬란)
+https://wlsdk9803.github.io/wlsdk9803/ (박진아)
 
 https://donginlee.github.io/donginLee/ (이동인)
 https://phoebe125.github.io/Phoebe125/ (이선민)
 
 https://soyalattee.github.io/soyalattee/ (박소연)
 https://janjinn.github.io/janjinn (박경진)
+
 
 
 ## 😑 김나현 : https://nahyeonnnn.github.io/Nahyeonnnn/
