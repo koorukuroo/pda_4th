@@ -5,10 +5,11 @@ https://github.com/ChaeyeonHan/ChaeyeonHan (한채연)
 https://github.com/hyuna333 (김현아)
 https://github.com/Erlhon9 (김태홍)
 
+https://github.com/sdc05103 (우채윤)
+https://github.com/yoonjaeuk (윤재욱)
 
 https://kyeongseo90.github.io/kyeongseo90/
 https://yapyap2.github.io/yapyap2/
-
 
 https://jueunkim429.github.io/Jueunkim429/ (김주은)  
 https://narongkim.github.io/narongkim/ (김예진)  
