@@ -36,7 +36,7 @@ https://kimriun.github.io/KimRiun/ (김경륜)
 https://gariguri.github.io/gariguri/ (김가언)
 
 
-https://donginlee.github.io/donginLee/ (이동인)
+https://donginlee.github.io/donginLee/ (이동인)  
 https://phoebe125.github.io/Phoebe125/ (이선민)
 
 https://soyalattee.github.io/soyalattee/ (박소연)
