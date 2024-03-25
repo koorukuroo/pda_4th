@@ -1,5 +1,5 @@
-(정원우)  https://yapyap2.github.io/yapyap2/
-(최경서)  https://kyeongseo90.github.io/kyeongseo90/
+https://yapyap2.github.io/yapyap2/ (정원우)  
+https://kyeongseo90.github.io/kyeongseo90/ (최경서)  
 
 https://Yoon-97.github.io/Yoon-97 (하윤철)
 https://chaeyeonhan.github.io/ChaeyeonHan/ (한채연)
