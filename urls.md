@@ -51,13 +51,10 @@ https://kmj-99.github.io/kmj-99/ (김민중)
 https://subsub97.github.io/subsub97/ (김득호)
 
 
-## 이원규: https://onek-2.github.io/OneK-2/
+이원규: https://onek-2.github.io/OneK-2/  
+이제윤: https://wpdbs1229.github.io/wpdbs1229/  
 
 
-## 이제윤: https://wpdbs1229.github.io/wpdbs1229/
-
-
-## 이제윤: https://wpdbs1229.github.io/wpdbs1229/
 
 최지연: https://jiyeon5.github.io/jiyeon5/  
 김윤경: https://do-yoongyo2.github.io/do-yoongyo2/
