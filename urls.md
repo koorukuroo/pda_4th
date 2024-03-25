@@ -32,7 +32,7 @@ https://wlsdk9803.github.io/wlsdk9803/ (박진아)
 https://colde99.github.io/colde99/ (박찬란) <br/>
 https://wlsdk9803.github.io/wlsdk9803/ (박진아)
 
-https://kimriun.github.io/KimRiun/ (김경륜)
+https://kimriun.github.io/KimRiun/ (김경륜)     
 https://gariguri.github.io/gariguri/ (김가언)
 
 
