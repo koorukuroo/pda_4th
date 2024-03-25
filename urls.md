@@ -38,8 +38,8 @@ https://github.com/janjinn (박경진)
 
 이현주: https://github.com/Leehyeonju0219  
 임세현: https://github.com/LimSeHyeon
-https://github.com/ShinHeeEul (신희을)
-https://github.com/YangJinHyeok (양진혁)
+<br> https://shinheeeul.github.io/ShinHeeEul/ (신희을)
+<br> https://yangjinhyeok.github.io/YangJinHyeok (양진혁)
 
 https://github.com/janjinn (박경진)
 https://github.com/soyalattee (박소연)
