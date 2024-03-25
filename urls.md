@@ -26,7 +26,7 @@ https://colde99.github.io/colde99/ (박찬란)
 https://wlsdk9803.github.io/wlsdk9803/ (박진아)
 
 
-https://jiyoongrace.github.io/Jiyoongrace (배지윤)
+
 
 
 https://colde99.github.io/colde99/ (박찬란) <br/>
@@ -43,7 +43,7 @@ https://soyalattee.github.io/soyalattee/ (박소연)
 https://janjinn.github.io/janjinn (박경진)
 
 https://lemonticsoul.github.io/lemonticsoul (서제호)  
-https://github.com/Jiyoongrace (배지윤)
+https://jiyoongrace.github.io/Jiyoongrace (배지윤)
 
 
 https://nahyeonnnn.github.io/Nahyeonnnn/ (김나현)  
