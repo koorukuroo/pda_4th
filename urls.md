@@ -16,6 +16,10 @@ https://narongkim.github.io/narongkim/ (김예진)
 https://github.com/Yoon-97 (하윤철)  
 https://github.com/ChaeyeonHan (한채연)  
 
+https://jiyoongrace.github.io/Jiyoongrace(배지윤)
+
+https://lemonticsoul.github.io/lemonticsoul (서제호)
+
 https://github.com/colde99/coldegg (박찬란)
 https://wlsdk9803.github.io/wlsdk9803/ (박진아)
 
@@ -30,6 +34,9 @@ https://soyalattee.github.io/soyalattee/ (박소연)
 https://janjinn.github.io/janjinn (박경진)
 
 
+
+https://lemonticsoul.github.io/lemonticsoul (서제호)
+https://github.com/Jiyoongrace (배지윤)
 
 ## 😑 김나현 : https://nahyeonnnn.github.io/Nahyeonnnn/
 
