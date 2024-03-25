@@ -29,4 +29,5 @@ https://github.com/ChaeyeonHan (한채연)
 최지연: https://jiyeon5.github.io/jiyeon5/
 김윤경: https://do-yoongyo2.github.io/do-yoongyo2/
 
-이현주: https://github.com/Leehyeonju0219
+이현주: https://github.com/Leehyeonju0219  
+임세현: https://github.com/LimSeHyeon
