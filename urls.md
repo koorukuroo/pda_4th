@@ -2,8 +2,8 @@
 https://github.com/Yoon-97/Yoon-97 (하윤철)
 https://github.com/ChaeyeonHan/ChaeyeonHan (한채연)
 
-https://github.com/hyuna333 (김현아)
-https://github.com/Erlhon9 (김태홍)
+https://hyuna333.github.io/hyuna333/ (김현아)
+https://Erlhon9.github.io/Erlhon9/ (김태홍)
 
 https://github.com/sdc05103 (우채윤)
 https://github.com/yoonjaeuk (윤재욱)
@@ -38,5 +38,6 @@ https://janjinn.github.io/janjinn (박경진)
 
 이현주: https://github.com/Leehyeonju0219  
 임세현: https://github.com/LimSeHyeon
-https://github.com/ShinHeeEul (신희을)
-https://github.com/YangJinHyeok (양진혁)
+<br> https://shinheeeul.github.io/ShinHeeEul/ (신희을)
+<br> https://yangjinhyeok.github.io/YangJinHyeok (양진혁)
+
