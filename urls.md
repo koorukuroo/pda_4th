@@ -20,8 +20,8 @@ https://github.com/ChaeyeonHan (한채연)
 
 https://github.com/colde99/coldegg (박찬란)
 
-https://github.com/KimRiun (김경륜)
-https://github.com/gariguri (김가언)
+https://kimriun.github.io/KimRiun/ (김경륜)
+https://gariguri.github.io/gariguri/ (김가언)
 
 
 https://donginlee.github.io/donginLee/ (이동인)
