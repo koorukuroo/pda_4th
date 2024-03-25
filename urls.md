@@ -40,7 +40,7 @@ https://janjinn.github.io/janjinn (박경진)
 김윤경: https://do-yoongyo2.github.io/do-yoongyo2/
 
 이현주: https://Leehyeonju0219.github.io/Leehyeonju0219  
-임세현: https://github.com/LimSeHyeon
+임세현: https://limsehyeon.github.io/LimSeHyeon
 
 <br> https://shinheeeul.github.io/ShinHeeEul/ (신희을)
 <br> https://yangjinhyeok.github.io/YangJinHyeok (양진혁)
