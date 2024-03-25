@@ -22,8 +22,8 @@ https://github.com/colde99/coldegg (박찬란)
 https://donginlee.github.io/donginLee/ (이동인)
 https://phoebe125.github.io/Phoebe125/ (이선민)
 
-https://github.com/soyalattee (박소연)
-https://github.com/janjinn (박경진)
+https://soyalattee.github.io/soyalattee/ (박소연)
+https://janjinn.github.io/janjinn (박경진)
 
 
 ## 😑 김나현 : https://nahyeonnnn.github.io/Nahyeonnnn/
@@ -40,6 +40,3 @@ https://github.com/janjinn (박경진)
 임세현: https://github.com/LimSeHyeon
 https://github.com/ShinHeeEul (신희을)
 https://github.com/YangJinHyeok (양진혁)
-
-https://github.com/janjinn (박경진)
-https://github.com/soyalattee (박소연)
