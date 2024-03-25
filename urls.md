@@ -81,5 +81,5 @@ https://github.com/Elandland    임찬솔
 https://yarkyungmin.github.io/YaRkyungmin/ (강경민)
 https://ymkdev.github.io/ymkdev/ (고유민)
 
-https://sooyeon-kr.github.io/sooyeon-kr (오수연)  
-https://jody816.github.io/jody816 (오재현)  
+https://sooyeon-kr.github.io/sooyeon-kr (오수연)   
+https://jody816.github.io/jody816 (오재현)   
