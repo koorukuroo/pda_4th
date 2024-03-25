@@ -4,7 +4,7 @@
 https://Yoon-97.github.io/Yoon-97 (하윤철)
 https://chaeyeonhan.github.io/ChaeyeonHan/ (한채연)
 
-https://hyuna333.github.io/hyuna333/ (김현아)
+https://hyuna333.github.io/hyuna333/ (김현아)  
 https://Erlhon9.github.io/Erlhon9/ (김태홍)
 
 https://sdc05103.github.io/sdc05103/ (우채윤)
