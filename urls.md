@@ -1,4 +1,3 @@
-
 https://github.com/Yoon-97/Yoon-97 (하윤철)
 https://github.com/ChaeyeonHan/ChaeyeonHan (한채연)
 
@@ -45,3 +44,5 @@ https://janjinn.github.io/janjinn (박경진)
 <br> https://shinheeeul.github.io/ShinHeeEul/ (신희을)
 <br> https://yangjinhyeok.github.io/YangJinHyeok (양진혁)
 
+https://sooyeon-kr.github.io/sooyeon-kr (오수연)
+https://jody816.github.io/jody816 (오재현)
