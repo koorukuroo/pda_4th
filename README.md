@@ -6,3 +6,4 @@
 
 1. 각 팀은 브랜치 이름을 자유롭게 정해서 브랜치에 두 분의 github page 주소가 적힌 urls.md 파일을 생성하고, push 하세요
 2. main branch로 merge 하세요
+
