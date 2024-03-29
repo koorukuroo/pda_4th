@@ -1,7 +1,9 @@
 # EC2 성능 비교
 ## 비교인스턴스
+1. t4g 패밀리에서 크기별로 차이 비교
 ![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/9ef91b52-febf-4140-886c-2c27c75c640d)
 <br/>
+2. 같은 large이지만 패밀리가 다른 인스턴스 유형 차이 비교
 ![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/82942ba6-8f32-4003-8457-646f8d13690c)
 
 ## 결과
@@ -17,10 +19,10 @@
 |EC2|CPU사용시간, 가용메모리|실행시간|
 |------|---|---|
 |t4g.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/baa3f6b0-8fa2-4a09-bbbb-0faf41a5f463)|61.58268|
-|m6g.large||61.80887|
-|c6g.large||61.61022|
-|r6g.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/baa3f6b0-8fa2-4a09-bbbb-0faf41a5f463)|61.58268|
-|i3.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/baa3f6b0-8fa2-4a09-bbbb-0faf41a5f463)|61.58268|
+|m6g.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/955adcef-a7b4-444d-b0d3-f214a6a00ef2)|61.48954|
+|c6g.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/0092f639-2328-435a-a764-4bf59f162722)|61.54917|
+|r6g.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/07f4ea09-a32d-48f9-bf46-6a0997b28888)|61.56287|
+|i3.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/776d423c-4c26-4b2f-9547-8582680f909a)|60.00059|
 
 ## 사용코드
 ```python
@@ -68,3 +70,7 @@ print(f"실행 시간: {execution_time:.5f} 초")
 ```
 
 ## 결론
+ec2 인스턴스 크기가 커져도 별로 유의미한 실행속도의 차이를 얻지 못했습니다.  
+또한, cpu가 2배로 커졌음에도 코드 실행속도 차이는 크게 차이 나지 않았습니다.  
+c가 컴퓨팅 성능이 빠르다고하여 기대를 하였지만 실험결과에는 유의미 하지 않았습니다.  
+### => 하나의 실행파일만 돌고, 멀티태스킹을 진행하지 않아 cpu의 성능차이를 크게 느끼지 못했다고 생각이 듭니다. 추후 멀티 태스킹을 활용한 복잡한 시스템을 설계하고 재실험하는 것이 필요합니다.
