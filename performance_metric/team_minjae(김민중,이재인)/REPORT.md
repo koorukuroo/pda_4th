@@ -3,6 +3,58 @@
 * os는 ubuntu를 사용했습니다.
 * 인스턴스 유형은 t2.micro와 t2.medium를 사용
 * AMI는 amd64입니다.
+
+## 코드
+```python
+# 크롤링
+import time
+from bs4 import BeautifulSoup
+import urllib.request
+import re
+#User-Agent를 조작하는 경우(아이폰에서 사용하는 사파리 브라우져의 헤더)
+hdr = {'User-agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.23 (KHTML, like Gecko) Version/10.0 Mobile/14E5239e Safari/602.1'}
+start = time.time() # 시작
+for n in range(0,100):
+        #클리앙의 중고장터 주소
+        data ='https://www.clien.net/service/board/sold?&od=T31&po=' + str(n)
+        #웹브라우져 헤더 추가
+        req = urllib.request.Request(data, \
+                                    headers = hdr)
+        data = urllib.request.urlopen(req).read()
+        page = data.decode('utf-8', 'ignore')
+        soup = BeautifulSoup(page, 'html.parser')
+        list = soup.find_all('span',
+                attrs={'data-role':'list-title-text'})
+        for item in list:
+                try:
+                        title = item.text.strip()
+                        #print(title) # 클리앙 글 출력
+                        if (re.search('아이패드', title)): # 아이패드에 관련된 글만 출력
+                                print(title.strip())
+                except:
+                        pass
+print(f"{time.time()-start:.4f} sec") # 종료와 함께 수행시간 출력
+```  
+```python
+# for문
+import time
+def long_running_task():
+    total = 0
+    for i in range(1, 990000001):
+        total += i
+    return total
+if __name__ == "__main__":
+    start_time = time.time()
+    result = long_running_task()
+    end_time = time.time()
+    execution_time = end_time - start_time
+    print(f"Result: {result}")
+    print(f"Execution Time: {execution_time:.2f} seconds")
+```
+
+
+
+
 ## 성능 측정
 * 크롤링 속도
 * 코드 실행 시간
