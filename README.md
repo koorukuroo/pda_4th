@@ -164,6 +164,7 @@ user    0m9.520s
 sys     0m0.000s
 
 ## 결론
+![image](https://github.com/lemonticsoul/git22/assets/127959482/7029241d-3842-4e29-9116-596dafcab898)
 
 cpu성능이 좋아질수록 t에서 유의미한 속도차이를 느끼지 못했고,
 심지어 cpu성능이 좋아질수록 코테 속도가 조금 느린다고 생각했다.
@@ -192,13 +193,3 @@ real   1m47.739s
 user   1m47.725s
 sys    0m0.008s
 
-
-
-
-
-<<<<<<< HEAD
-1. 각 팀은 브랜치 이름을 자유롭게 정해서 브랜치에 두 분의 github page 주소가 적힌 urls.md 파일을 생성하고, push 하세요
-2. main branch로 merge 하세요
-
-=======
->>>>>>> d3aa1d4c0ae11a33677a8c470a96a0e6c16587d9
