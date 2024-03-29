@@ -7,9 +7,8 @@
 
 ## AWS EC2 인스턴스 유형 별 성능 테스트 
 
-|제목 셀1|제목 셀2|제목 셀3|제목 셀4| 제목 셀5|  
-|---|---|---|---|---|
 | 인스턴스-아키텍처 | Time taken for tests | Suc/Total Request | Request per second | Time per Request |  
+|---|---|---|---|---|
 | T4g.small-Arm | 0.992sec | 400/400 | 403.40[#/sec] | 2.479ms | 
 | T3.small-x86 | 0.585sec | 400/400 | 684.08[#/sec] | 1.462ms |
 | T4g.large-Arm |  |  |  |  |
