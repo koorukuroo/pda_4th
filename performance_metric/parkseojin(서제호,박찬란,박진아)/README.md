@@ -48,24 +48,12 @@ print(cnt)
 ![image](https://github.com/lemonticsoul/git22/assets/127959482/7c124143-e588-44dc-9141-cfea7cc15d0d)
 
 
-2. 코테 시간 측정
-
-real    11.488s
-user   11.470s
-sys     0.012s
 
 ### t2.small
 
 1. cpu사용량
 
 ![image](https://github.com/lemonticsoul/git22/assets/127959482/6cf412b9-5f1d-4057-a9e7-c147550f80f5)
-
-2. 코테 시간 측정
-
-real    0m11.429s
-user    0m11.424s
-sys     0m0.000s
-
 
 
 ## t3계열
@@ -77,12 +65,6 @@ sys     0m0.000s
 
 ![image](https://github.com/lemonticsoul/git22/assets/127959482/2c121b4e-5d2f-4cf6-abba-23fc48bf0e4c)
 
-코테 시간
-
-real    0m10.944s
-user    0m10.917s
-sys     0m0.004s
-
 
 ### T3.large
 
@@ -91,11 +73,7 @@ sys     0m0.004s
 
 ![image](https://github.com/lemonticsoul/git22/assets/127959482/2fe79c61-9e27-48a0-8919-5874dacb6c63)
 
-2.코테시간
 
-real    0m13.988s
-user    0m13.973s
-sys     0m0.012s
 
 
 
@@ -109,23 +87,12 @@ sys     0m0.012s
 
 ![image](https://github.com/lemonticsoul/git22/assets/127959482/356e9839-ac1e-4110-ae2c-675a5adbdbfe)
 
-2.코테시간
-
-real    0m11.326s
-user    0m11.318s
-sys     0m0.008s
 
 ### t4g large
 
 1.cpu 사용
 
 ![image](https://github.com/lemonticsoul/git22/assets/127959482/fd3b5349-e582-4961-936e-422ad6406a65)
-
-2.코테시간
-
-real    0m11.315s
-user    0m11.307s
-sys     0m0.008s
 
 
 
@@ -138,17 +105,7 @@ sys     0m0.008s
 
 ![image](https://github.com/lemonticsoul/git22/assets/127959482/5a1258aa-8289-46d6-962f-1f73d2e18829)
 
-2.코테시간
 
-real    0m11.876s
-user    0m11.872s
-sys     0m0.004s
-
-### c4.4xlarge
-
-real    0m11.941s
-user    0m11.933s
-sys     0m0.008s
 
 ### c5.4xlarge
 
@@ -156,12 +113,8 @@ sys     0m0.008s
 
 ![image](https://github.com/lemonticsoul/git22/assets/127959482/07a3168a-b983-41b9-84c3-3983730efd16)
 
+![image](https://github.com/koorukuroo/pda_4th/assets/127959482/940a74ee-18ee-4283-984e-565b5f18e26e)
 
-2.코테시간
-
-real    0m9.521s
-user    0m9.520s
-sys     0m0.000s
 
 ### 결론
 
