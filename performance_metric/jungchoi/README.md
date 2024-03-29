@@ -56,3 +56,37 @@ m7i.2xlarge	|8|	64
 r7i.large	|2|	16
 r7i.2xlarge	|8|	64
 
+
+###  cf. CPU 사용량 비교
+
+.|c5.2xlarge | t2.2xlarge
+-|-|-
+온디맨드 Linux 요금|	시간당 0.3840USD|	시간당 0.4608USD
+온디맨드 Windows 요금|	시간당 0.7520USD|	시간당 0.5228USD
+vCPU|	8(4코어)|	8(8코어)
+메모리(MiB)|	16384	|32768
+스토리지(GB)|	–|	–
+지원되는 루트 디바이스 유형|	ebs|	ebs
+네트워크 성능|	Up to 10 Gigabit|	Moderate
+아키텍처|	x86_64|	x86_64
+버스트 가능|	false|	true
+프리 티어 사용 가능|	false|	false
+현재 세대|	true|	true
+
+##### c5.2xlarge
+
+최소:  0.0  
+최고:  19.4  
+평균 cpu 사용률:  12.15263157894737
+
+![resource_usage_plot_639](https://github.com/koorukuroo/pda_4th/assets/59429729/c9da30fd-67d3-4c84-a559-412ead0a85e8)
+
+##### t2.2xlarge
+
+최소:  12.0  
+최고:  29.5  
+평균 cpu 사용률:  13.263157894736839
+
+![resource_usage_plot_644](https://github.com/koorukuroo/pda_4th/assets/59429729/963facd3-f810-42e4-ac3b-bbe8061b6899)
+
+
