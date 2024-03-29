@@ -85,18 +85,23 @@ AWS(성능비교)
 
 <br/>
 
-- m6.2xlarge(4.20s)가 t3.2xlarge(4.34s)보다 빠르다
+-  t3.xlarge(4.59s)가 t4.xlarge(4.81s)보다 빠르다
 
 ### cpu 사용량
 
+<div style="display: flex;">
+  <img src="https://github.com/yoonjaeuk/AWS/assets/52642461/8c1d507c-676d-48e4-b8a6-9e3fb6408179" alt="Image 1" style="width: 50%;">
+  <img src="https://github.com/yoonjaeuk/AWS/assets/52642461/a677a9c4-7698-4ba8-bd20-c9609a3ad224" alt="Image 2" style="width: 50%;">
+</div>
 
-![image](https://github.com/yoonjaeuk/AWS/assets/52642461/8c1d507c-676d-48e4-b8a6-9e3fb6408179)
-![image](https://github.com/yoonjaeuk/AWS/assets/52642461/a677a9c4-7698-4ba8-bd20-c9609a3ad224)
+
+
+
 
 
 <br/>
 
-- 가장 높은 수치를 기준으로 t3.2xlarge(0.877%) m6.2xlarge(1.67%)에 비해 2배 가량 cpu사용량이 적다
+- 가장 높은 수치를 기준으로 t3.xlarge(0.783%) m6.2xlarge(1.49%)에 비해 2배 가량 cpu사용량이 적다
 
 
  ### 보아야될 사항
