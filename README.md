@@ -2,7 +2,8 @@
 
 이 공간은 신한 프로디지털아카데미 4기 수강생들을 위한 github 테스트 공간입니다. 여기에서는 다양한 테스트를 진행하고 결과를 공유할 수 있습니다.
 
-## 미션
+## AWS EC2 인스턴스 유형 별 성능 테스트 
 
-1. 각 팀은 브랜치 이름을 자유롭게 정해서 브랜치에 두 분의 github page 주소가 적힌 urls.md 파일을 생성하고, push 하세요
-2. main branch로 merge 하세요
+
+| 인스턴스 | Time taken for tests | Suc/Total Request | Request per second | Time per Request |
+| T4g.small | 0.0992sec | 400/400 | 403.40[#/sec] | 2.479ms | 
