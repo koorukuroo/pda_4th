@@ -7,7 +7,8 @@
 
 # 측정 내용
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/9ee4e3fc-a5d5-4588-9905-fcf5e1fb6307/58b9e7ed-b5b4-4f43-ad83-c6c1a1942410/Untitled.png)
+<img width="399" alt="Untitled" src="https://github.com/koorukuroo/pda_4th/assets/93638922/90c797df-83e0-4f65-b073-fcedda9139e9">
+<br>
 
 - Instance Family 별 성능 차이
 - 동일 Instance Family 내 Instance 크기 별 성능차이
@@ -33,53 +34,54 @@
 
 ---
 
+<br><br>
+
 ## t2.micro VS t2.medium
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/6dfdb19e-ffb1-425b-84c2-e160fab5c7eb
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/e5ed5976-48eb-4e25-ac32-2a6963d53676
+![Untitled](https://github.com/koorukuroo/pda_4th/assets/71596178/6dfdb19e-ffb1-425b-84c2-e160fab5c7eb)
+![Untitled (2)](https://github.com/koorukuroo/pda_4th/assets/71596178/e5ed5976-48eb-4e25-ac32-2a6963d53676)
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/8640955c-8ce2-496c-a99b-62523e7d0cc2
+![image](https://github.com/koorukuroo/pda_4th/assets/71596178/8640955c-8ce2-496c-a99b-62523e7d0cc2)
+![image](https://github.com/koorukuroo/pda_4th/assets/71596178/718f96be-49a8-44f9-bf72-7119f4024251)
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/718f96be-49a8-44f9-bf72-7119f4024251
 
 ## r3.large VS r3.xlarge
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/ca9aa8a4-94fb-4f4a-b58d-a1535249be4a
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/23d97707-50dc-45d2-8848-e216a632f433
+![Untitled (4)](https://github.com/koorukuroo/pda_4th/assets/71596178/ca9aa8a4-94fb-4f4a-b58d-a1535249be4a)
+![Untitled (6)](https://github.com/koorukuroo/pda_4th/assets/71596178/23d97707-50dc-45d2-8848-e216a632f433)
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/3085fd2c-234c-4bf5-91d7-d4640aa5531b
+![image](https://github.com/koorukuroo/pda_4th/assets/71596178/3085fd2c-234c-4bf5-91d7-d4640aa5531b)
+![image](https://github.com/koorukuroo/pda_4th/assets/71596178/2184720b-9fea-4052-8cfb-decaacb57420)
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/2184720b-9fea-4052-8cfb-decaacb57420
 
 ## CPU 사용 비교
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/03b9d0bf-e9ec-45ae-8914-2c15dcb56ba1
+![Untitled (8)](https://github.com/koorukuroo/pda_4th/assets/71596178/03b9d0bf-e9ec-45ae-8914-2c15dcb56ba1)
+
 
 ## m5.large VS m5.xlarge
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/6af30b96-2ef9-4eb8-b038-8d94778c3965
+![m5 large](https://github.com/koorukuroo/pda_4th/assets/71596178/6af30b96-2ef9-4eb8-b038-8d94778c3965)
+![m5 xlarge](https://github.com/koorukuroo/pda_4th/assets/71596178/fbf0066b-301e-474e-a7ea-33ea81f6502a)
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/fbf0066b-301e-474e-a7ea-33ea81f6502a
+![crawl_m5L](https://github.com/koorukuroo/pda_4th/assets/71596178/0eb6120b-85bb-413b-ab08-e10f721e5fc4)
+![crawl_m5XL](https://github.com/koorukuroo/pda_4th/assets/71596178/2c29b309-bf12-46c3-a540-dfdbe753b315)
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/0eb6120b-85bb-413b-ab08-e10f721e5fc4
-
-https://github.com/koorukuroo/pda_4th/assets/71596178/2c29b309-bf12-46c3-a540-dfdbe753b315
 
 ## c5.large VS c5.xlarge
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/dee22c55-66a9-4c0a-b206-6ae59dd5f553
+![c5 largge](https://github.com/koorukuroo/pda_4th/assets/71596178/dee22c55-66a9-4c0a-b206-6ae59dd5f553)
+![c5xlarge](https://github.com/koorukuroo/pda_4th/assets/71596178/7d577708-16ca-454f-ae1e-e36175410e0b)
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/7d577708-16ca-454f-ae1e-e36175410e0b
+![crawl_c5L](https://github.com/koorukuroo/pda_4th/assets/71596178/d4e9f4a9-d2d2-4b98-99c3-62c3b993a4c9)
+![cral_c5 XL](https://github.com/koorukuroo/pda_4th/assets/71596178/13e06e2e-78c9-45e5-911d-a8a50ef6a3d0)
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/d4e9f4a9-d2d2-4b98-99c3-62c3b993a4c9
-
-https://github.com/koorukuroo/pda_4th/assets/71596178/13e06e2e-78c9-45e5-911d-a8a50ef6a3d0
 
 ## CPU 사용 비교
 
-https://github.com/koorukuroo/pda_4th/assets/71596178/0c3e309e-939f-4fd3-9d72-18d4d9267949
+![image](https://github.com/koorukuroo/pda_4th/assets/71596178/0c3e309e-939f-4fd3-9d72-18d4d9267949)
 
 # 정리
 
@@ -104,5 +106,7 @@ https://github.com/koorukuroo/pda_4th/assets/71596178/0c3e309e-939f-4fd3-9d72-18
     
 - **크롤링의 경우, 네트워크의 영향이 더욱 컸음**
     
-    동시에 여러 인스턴스를 실행하면 모든 인스턴스에서 속도가 느려지고, 시간에 따라 지속적으로 측정 시간의 변동이 존재하였다.
-    또한 성능이 더 좋은 인스턴스라도 시간이 더 길게 나오는 등, 인스턴스의 성능보다는 네트워크의 성능이 더 중요하였다.
+    시간에 따라 지속적으로 측정 시간의 변동이 존재하였다. 또한 성능이 더 좋은 인스턴스라도 시간이 더 길게 나오는 등, 인스턴스의 성능보다는 네트워크의 성능이 더 중요하였다.
+
+  ### 추후 공부 할 내용
+  동시에 여러 인스턴스에서 크롤링을 진행하면 모든 인스턴스에서 속도가 느려지는 경우가 발생하여 해당 경우는 왜 발생하는지 공부 할 예정이다.
