@@ -25,7 +25,7 @@ AWS Gravition 3는 AWS Graviton2 기반 인스턴스에 비해 최대 25% 더 �
 
 가격 차이에 따른 성능
 
-X86 Intel Architecture
+<H3>X86 Intel Architecture</H3>
 
 ![image](https://github.com/koorukuroo/pda_4th/assets/68230815/848f8cc2-5afc-44fa-93f0-49dd55ab1abf)
 
