@@ -1,7 +1,7 @@
 # AWS EC2 성능 측정
 ## 주제
 ### 크롤링 속도 측정
-각 EC2 인스턴스 유형에 따라 [네이버 증권](https://m.stock.naver.com/)에 크롤링 요청을 100번 보냈을 때 초당 요청횟수(requests/seconds)를 측정한다.
+각 EC2 인스턴스 유형에 따라 [네이버 증권](https://m.stock.naver.com/)에 크롤링 요청을 100번 보냈을 때 초당 요청횟수(requests/seconds)와 총 요청시간(seconds)을 측정한다.
 
 <br>
 
@@ -34,29 +34,28 @@
 ![image](https://github.com/koorukuroo/pda_4th/assets/56223389/928ee66c-af17-4ea3-9e09-f68b2346ffef)
 
 
-| 아키텍처 | 인스턴스 유형 | 초당 요청 횟수(requests/sec) | 1번의 요청당 평균 시간 (seconds)|
+| 아키텍처 | 인스턴스 유형 | 초당 요청 횟수(requests/sec) |  요청 시간 (seconds)|
 |----------|---------------|---------------------------|---------------------------|
-| ARM      | t4g.large     | 5.36                      | 0.18664                  |
-|          | m6g.large     | 5.55                      | 0.18006                  |
-|          | c6g.large     | 5.36                      | 0.18671                  |
-|          | t4g.xlarge    | 5.28                      | 0.18941                  |
-|          | m6g.xlarge    | 5.56                      | 0.17990                  |
-|          | c6g.xlarge    | 5.42                      | 0.18461                  |
-| x86      | t2.large      | 5.08                      | 0.19669                  |
-|          | m4.large      | 4.98                      | 0.20064                  |
-|          | c2.large      | 5.66                      | 0.17678                  |
-|          | t2.xlarge     | 5.07                      | 0.19721                  |
-|          | m4.xlarge     | 4.84                      | 0.20650                  |
-|          | c2.xlarge     | 5.44                      | 0.18387                  |
+| ARM      | t4g.large     | 5.36                      | 18.664                  |
+|          | m6g.large     | 5.55                      | 18.006                  |
+|          | c6g.large     | 5.36                      | 18.671                  |
+|          | t4g.xlarge    | 5.28                      | 18.941                  |
+|          | m6g.xlarge    | 5.56                      | 17.990                  |
+|          | c6g.xlarge    | 5.42                      | 18.461                  |
+| x86      | t2.large      | 5.08                      | 19.669                  |
+|          | m4.large      | 4.98                      | 20.064                  |
+|          | c4.large      | 5.66                      | 17.678                  |
+|          | t2.xlarge     | 5.07                      | 19.721                  |
+|          | m4.xlarge     | 4.84                      | 20.650                  |
+|          | c4.xlarge     | 5.44                      | 18.387                  |
 
 
 <br>
 
 
-ARM에서는 m(범용), intel(x86)에서는 c가 초당 요청 횟수가 가장 많다.
+ARM에서는 m(범용), intel(x86)에서 c가 초당 요청 횟수가 가장 많았고, 총 요청시간이 가장 짧은 것을 볼 수 있다.
 
 large와 xlarge의 차이는 유의미하지 않다. 따라서 인스턴스 유형 별 크기는 성능에 영향을 끼치지 않는다.
-
 
 c에서는 intel이 , 나머지(m, t)에서는 arm이 더 좋은 성능을 보였다.
 
@@ -64,9 +63,7 @@ c에서는 intel이 , 나머지(m, t)에서는 arm이 더 좋은 성능을 보�
 
 # 결론
 
-
-
-따라서 웹 크롤링을 하는 경우, 가장 초당 요청 횟수가 많은 유형 c에 아키텍처는 x86를 추천한다.
+따라서 웹 크롤링을 하는 경우, 초당 요청 횟수가 가장 높고, 총 요청시간이 가장 적은 아키텍처 x86의 유형 c를 추천한다.
 
 <br>
 
@@ -92,7 +89,7 @@ if __name__ == "__main__":
     speed, time_per_request = measure_crawling_speed(url, num_requests)
     print(f"크롤링 속도: {speed:.2f} requests/second")
     print(f"1번의 요청당 평균 시간: {time_per_request:.5f} seconds")
-
+    print(f"총 요청 시간: {elapsed_time:.5f} seconds" )
 ```
 
 # 역할
