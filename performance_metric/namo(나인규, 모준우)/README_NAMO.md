@@ -47,28 +47,22 @@
 각 인스턴스에서 실행한 코드의 실행 시간을 시각화하여 비교합니다. 또한 각 인스턴스의 온디맨드 요금을 시각화하여 비교합니다
 
 ### 인스턴스 별 정렬 알고리즘 실행시간
-
-![alt text](result_image/InstanceType.png)
+![alt text](image-2.png)
 
 ### 인스턴스 별 정렬 알고리즘 총 실행시간
-
-![alt text](result_image/ExecutionTime.png)
+![alt text](image-1.png)
 
 ### 인스턴스 별 온디맨드 가격(kor)
 
-![alt text](result_image/TotalPrice.png)
-
+![alt text](image.png)
 # 결론
 
-- 성능 비교시 사용한 코드의 인아웃풋이 많지 않아서
-  유의미한 비교가 어렵다.
-  추후 더 복잡한 시스템을 통해 확인할 예정
-- 연산의 성능이 가장 크게 고려되는 상황에선 c5를 사용하는 것이
-  실행시간 측면에서 효율적이다.
+- 성능 비교시 사용한 코드의 인아웃풋이 많지 않아서 유의미한 비교가 어렵다. 추후 더 복잡한 시스템을 통해 확인할 예정
+- 연산의 성능이 가장 크게 고려되는 상황에선 c5를 사용하는 것이 실행시간 측면에서 효율적이다.
 
 <br>
 
-# 크롤링 코드
+# 정렬 알고리즘 실행 코드
 
 ```c
 #include <stdio.h>
@@ -334,7 +328,7 @@ int main(void) {
 }
 ```
 
-#시각화 코드
+# 시각화 코드
 
 ```python
 
@@ -343,7 +337,6 @@ import numpy as np
 import pandas as pd
 
 
-# 예제 데이터 프레임 생성
 data = {
     'Instance Type': ['c5.xlarge', 'i4i.xlarge', 'm4.xlarge', 't2.xlarge','d2.2xlarge','r4.xlarge'],
 
@@ -357,7 +350,6 @@ data = {
 instance_types = ['c5.xlarge', 'i4i.xlarge', 'm4.xlarge', 't2.xlarge','d2.2xlarge','r4.xlarge']
 total_execution_times = [6165, 6199, 9622, 8703,8988,8669]
 
-# 막대 그래프 시각화
 plt.bar(instance_types, total_execution_times, color='skyblue')
 plt.xlabel('Instance Type')
 plt.ylabel('Total Execution Time')
@@ -377,7 +369,6 @@ plt.show()
 
 plt.figure(figsize=(10, 6))
 
-# 각 데이터 시리즈에 대해 선 그래프 그리기
 for column in df.columns[1:]:
     plt.plot(df['Instance Type'], df[column], marker='o', label=column)
 
@@ -387,10 +378,9 @@ plt.ylabel('Time')
 plt.legend()
 plt.grid(True)
 plt.show()
-
+```
 
 # Team
-
 - Na In Gyu :
   - 알고리즘 코드 작성
   - d2,m4,t2,r4 실행
@@ -399,8 +389,6 @@ plt.show()
   - c5,i4i 실행
   - README 작성
   - 발표
-
-### 출처
-
+  - 
+# 출처
 앞선 팀의 README.md 를 참고했습니다.
-```
