@@ -2,8 +2,10 @@
 ## 비교인스턴스
 1. t4g 패밀리에서 크기별로 차이 비교
 ![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/9ef91b52-febf-4140-886c-2c27c75c640d)
+
 <br/>
-2. 같은 large이지만 패밀리가 다른 인스턴스 유형 차이 비교
+
+2. 같은 크기이지만 패밀리가 다른 인스턴스 유형 차이 비교
 ![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/82942ba6-8f32-4003-8457-646f8d13690c)
 
 ## 결과
