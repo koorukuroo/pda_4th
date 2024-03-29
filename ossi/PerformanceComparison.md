@@ -102,7 +102,7 @@ measure_and_save_performance(csv_file)
 
 ## 성능 비교 그래프
 ### CPU 사용량 비교
-![alt text](image-3.png)
+![alt text](image.png)
 
 ### 작업 시간 비교
-![alt text](image-2.png)
+![alt text](image-1.png)
