@@ -164,6 +164,7 @@ user    0m9.520s
 sys     0m0.000s
 
 ## 결론
+![image](https://github.com/lemonticsoul/git22/assets/127959482/7029241d-3842-4e29-9116-596dafcab898)
 
 cpu성능이 좋아질수록 t에서 유의미한 속도차이를 느끼지 못했고,
 심지어 cpu성능이 좋아질수록 코테 속도가 조금 느린다고 생각했다.
