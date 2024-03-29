@@ -89,9 +89,9 @@
 
 ![image](https://github.com/koorukuroo/pda_4th/assets/71596178/0c3e309e-939f-4fd3-9d72-18d4d9267949)
 
+---
 ## 정리
 
----
 
 ### Instance Family 별 성능 차이가 있는가?
 
