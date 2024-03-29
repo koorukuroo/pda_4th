@@ -42,7 +42,7 @@ D2의 사용 프로세서
 
 ![image](https://github.com/koorukuroo/pda_4th/assets/68230815/22d4c844-c3eb-4969-a639-c182fe2ff890)
 
-AMD 프로세서는 멀티코어 아키텍처를 활용하여 병렬 처리에 특화
+
 
 
 
