@@ -25,7 +25,6 @@ t4g, m6g 유형은 arm 아키텍처로 t3, m6i 유형은 x86 아키텍처로 테
 | M6i.large-x86     | 0.558sec             | 400/400           | 717.26[#/sec]      | 1.394ms          |
 
 ![poster](./imgs/graph.png)
-<img src="/imgs/graph.png" width="400" height="300">
 
 ## 📈결과 분석
 
