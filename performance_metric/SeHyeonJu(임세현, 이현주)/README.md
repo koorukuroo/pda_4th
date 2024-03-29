@@ -1,6 +1,4 @@
 ## EC2 인스턴스 4개에 동일한 코드를 실행하고 실행 시간 및 CPU 사용량을 비교 분석
-- CPU 개수 : 2개로 통일
-- 인스턴스 유형 : large로 통일
 
 ### 비교 대상
 | 인스턴스 유형 | 온디맨드 시간당 요금 | vCPU | 메모리 |
@@ -33,22 +31,18 @@ print("소요된 시간(초):", end_time - start_time)
 
 ### 결과1
 **1. ubuntu x86 M5.large**
-- 2CPU 8GiB
 
 ![image](https://github.com/koorukuroo/pda_4th/assets/116863184/98f28bfb-1d58-4fe2-a121-e7e000bba68d)
 
 **2. ubuntu arm M6g.large**
-- 2CPU 8GiB
 
 ![image](https://github.com/koorukuroo/pda_4th/assets/116863184/9c3772a5-4cad-4aef-9228-6c1c1164dcbd)
 
 **3. ubuntu arm R6g.large**
-- 2CPU 16GiB
 
 ![image](https://github.com/koorukuroo/pda_4th/assets/116863184/4dbed9cb-2e69-4e90-b6f1-a425bbdff68b)
 
 **4. ubuntu arm C6g.large**
-- 2CPU 4GiB
 
 ![image](https://github.com/koorukuroo/pda_4th/assets/116863184/13b95da5-8203-462c-95e1-64b92a810cdd)
 
@@ -59,6 +53,8 @@ print("소요된 시간(초):", end_time - start_time)
 ---
 
 ### 실습 코드2
+
+두 개의 1000x1000 크기의 무작위 배열을 생성하고, 이를 1000번 반복하여 내적(dot product) 연산을 수행하는 코드
 ```python
 import numpy as np
 import time
@@ -81,22 +77,18 @@ print(f"높은 CPU 사용량 작업 소요 시간(초): {elapsed_time:.2f}")
 
 ### 결과2
 **1. ubuntu x86 M5.large**
-- 2CPU 8GiB
 
 ![image](https://github.com/koorukuroo/pda_4th/assets/116863184/c87d9abc-50a7-4b13-bd86-6e4110c731ed)
 
 **2. ubuntu arm M6g.large**
-- 2CPU 8GiB
 
 ![image](https://github.com/koorukuroo/pda_4th/assets/116863184/760f68c8-e2d4-4051-95f4-8f82112fcfa6)
 
 **3. ubuntu arm R6g.large**
-- 2CPU 16GiB
 
 ![image](https://github.com/koorukuroo/pda_4th/assets/116863184/2a244978-df7c-4c83-ade7-ae3be710e7d1)
 
 **4. ubuntu arm C6g.large**
-- 2CPU 4GiB
 
 ![image](https://github.com/koorukuroo/pda_4th/assets/116863184/0b72c477-dc9a-4580-bfbe-55ecb510fe07)
 
@@ -112,22 +104,18 @@ print(f"높은 CPU 사용량 작업 소요 시간(초): {elapsed_time:.2f}")
 CPU 사용률을 비교해보았다.
 
 **1. ubuntu x86 M5.large**
-- 2CPU 8GiB
 
 ![스크린샷 2024-03-29 125233](https://github.com/koorukuroo/pda_4th/assets/116863184/75b30afb-0a20-4c17-87dd-1fa51cd9b012)
 
 **2. ubuntu arm M6g.large**
-- 2CPU 8GiB
 
 ![스크린샷 2024-03-29 125208](https://github.com/koorukuroo/pda_4th/assets/116863184/2ed8f043-0e97-4d8a-a8bf-be8ddc2c65e4)
 
 **3. ubuntu arm R6g.large**
-- 2CPU 16GiB
 
 ![스크린샷 2024-03-29 125343](https://github.com/koorukuroo/pda_4th/assets/116863184/d6bfe484-841a-4e50-8331-97c572a21d43)
 
 **4. ubuntu arm C6g.large**
-- 2CPU 4GiB
 
 ![스크린샷 2024-03-29 125448](https://github.com/koorukuroo/pda_4th/assets/116863184/d158c11d-2d0c-49f7-9648-145efc840925)
 
