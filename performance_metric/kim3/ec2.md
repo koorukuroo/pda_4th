@@ -57,9 +57,8 @@ print(f"{end - start:.5f} sec")
 ### X86
 ![image](https://github.com/koorukuroo/pda_4th/assets/92364973/fac04d1b-ec07-412d-9fb9-cd7ea5e4ad24)
 ### ARM
-![image (1)](https://github.com/koorukuroo/pda_4th/assets/92364973/d48b731e-f453-4a4d-8e33-352a8474ef21)
-
-<br>
+![image (5)](https://github.com/koorukuroo/pda_4th/assets/92364973/62703b5d-7ff7-4f01-9e2a-e9852e72257f)  
+<br><br>
 
 ## cpu 지표
 
@@ -69,10 +68,18 @@ print(f"{end - start:.5f} sec")
 | **ARM(Amazone Linux)** 	| ![image (3)](https://github.com/koorukuroo/pda_4th/assets/92364973/a63ae31a-4f77-454e-8c58-46c6d2008254) 	|
 <br>
 
+## 특이사항
+1. 왜 ARM Ubuntu에서 t4g.large에서 cpu사용량이 급격하게 증가했는가?
+   -> small보다 cpu사용량이 줄었어야 하는 것 아닌가? <br>
+이유 : 
+<br>
+
 ## 결론
 1. ARM 사용 시, Linux보다 Ubuntu의 속도가 더 빠르다.  
   -> 우분투는 널리 사용되는 개발자 및 사용자 커뮤니티가 활발하고, 이로인해 더 빠른 버그 수정 및 업데이트가 제공되어 성능 향상과 안정성을 기져오는 것 같다. <br>
 
 2. 같은 Ubuntu 사용 시, 비슷한 인스턴스 유형을 사용할 때, X86에서 크게 변화가 된 것을 확인할 수 있다.  
   -> Window 운영체제는 더 많은 시스템 리소스를 요구해서 성능의 변화에 민감하지만, Ubuntu와 같은 Linux 기반 시스템은 일반적으로 더 적은 리소스를 사용해서 Ubuntu가 AWS 인스턴스에서 더 일관된 성능을 제공하는 것 같다.<br>
+
+3. 인스턴스의 크기는 성능변화에 크게 영향을 미치지 않고, 인스턴스 family와 세대가 영향을 미치는 것을 알 수 있다. <br>
 
