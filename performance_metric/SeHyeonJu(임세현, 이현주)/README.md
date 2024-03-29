@@ -3,9 +3,14 @@
 - 인스턴스 유형 : large로 통일
 
 ### 비교 대상
-**M5.large vs M6g.large vs C6g.large vs R6g.large**
+| 인스턴스 유형 | 온디맨드 시간당 요금 | vCPU | 메모리 |
+| ------------- | ------------ | ------- | ------ |
+| m5.large     | USD 0.118      | 2  | 8GiB  |
+| m6g.large    | USD 0.077      | 2   | 8GiB  |
+| r6g.large    | USD 0.1008     | 2   | 16GiB  |
+| c6g.large    | USD 0.068      | 2   | 4GiB   |
 
-***
+---
 
 ### 실습 코드1
 원주율 근사치를 위한 단계 개수인 num_steps 만큼 반복하여 pi 값을 계산해주는 코드
