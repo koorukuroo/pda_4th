@@ -1,7 +1,7 @@
 # AWS EC2 성능 측정
 ## 주제
-### 크롤링 속도 측정
-각 EC2 인스턴스 유형에 따라 [네이버 증권](https://m.stock.naver.com/)에 크롤링 요청을 100번 보냈을 때 초당 요청횟수(requests/seconds)와 총 요청시간(seconds)을 측정한다.
+### 요청 속도 측정
+각 EC2 인스턴스 유형에 따라 [네이버 증권](https://m.stock.naver.com/)에 요청을 100번 보냈을 때 초당 요청횟수(requests/seconds)와 총 요청시간(seconds)을 측정한다.
 
 <br>
 
@@ -63,7 +63,7 @@ c에서는 intel이 , 나머지(m, t)에서는 arm이 더 좋은 성능을 보�
 
 # 결론
 
-따라서 웹 크롤링을 하는 경우, 초당 요청 횟수가 가장 높고, 총 요청시간이 가장 적은 아키텍처 x86의 유형 c를 추천한다.
+따라서 웹 요청을 하는 경우, 초당 요청 횟수가 가장 높고, 총 요청시간이 가장 적은 아키텍처 x86의 유형 c를 추천한다.
 
 <br>
 
@@ -72,11 +72,11 @@ c에서는 intel이 , 나머지(m, t)에서는 arm이 더 좋은 성능을 보�
 * x86 c4.large 로 10000번의 요청을 보낸 경우, 위 그림처럼 멈췄다.
 * 예상 소요 시간은 17.678 x 100 = 1767.8 초로, 29.45분이다.
 * 하지만, 1시간이 지나도 결과가 나타나지 않았다.
-* 네이버 정책상, 크롤링시 요청 횟수에 재한을 두었기 때문인 것으로 분석된다.
-* 따라서 이럴 때 API 이용한다. 대부분의 대형 웹 서비스는 공개된 API(Application Programming Interface)를 제공한다. 이 API를 사용하여 데이터를 가져오면 웹페이지를 크롤링하는 것보다 훨씬 더 안정적이고 효율적이다. 네이버 증권 데이터를 이용하는 서비스라면 네이버의 증권 API를 활용한다.
+* 네이버 정책상, 요청 횟수에 재한을 두었기 때문인 것으로 예상된다.
+* 따라서 이럴 때 API 이용한다. 대부분의 대형 웹 서비스는 공개된 API를 제공한다. 이 API를 사용하여 데이터를 가져오면 웹페이지를 직접 크롤링하는 것보다 훨씬 더 안정적이고 효율적이다.
 
 
-# 크롤링 코드
+# 요청 파이썬 코드
 ```python
 import requests
 import time
@@ -87,7 +87,7 @@ def measure_crawling_speed(url, num_requests):
         response = requests.get(url)  # 웹 페이지에 요청 보내기
     end_time = time.time()  # 끝 시간 기록
     elapsed_time = end_time - start_time  # 총 경과 시간 계산
-    crawling_speed = num_requests / elapsed_time  # 크롤링 속도 계산
+    crawling_speed = num_requests / elapsed_time  # 총 요청 속도 계산
     time_per_request = elapsed_time / num_requests  # 1번의 요청당 평균 시간 계산
     return crawling_speed, time_per_request
 
