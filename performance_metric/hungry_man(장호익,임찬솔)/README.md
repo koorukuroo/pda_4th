@@ -11,6 +11,8 @@
 t4g.micro vs t4g.2xlarge
 
 ![image](https://github.com/JangHoIk1/AWS/assets/94967088/75ae2a07-5fd7-4caa-86dc-af7a49bd16ec)
+![image](https://github.com/JangHoIk1/AWS/assets/94967088/7e431aeb-e285-432c-b3e3-bb82a8a2f33d)
+
 
 t4 시리즈 -> AWS Graviton2 프로세서 사용
 c7 시리즈 -> AWS Graviton3 프로세서 사용
