@@ -4,8 +4,8 @@ import urllib.request
 import time
 import json
 
-client_id = "f5GkBUJvh5eqGn4rMJeV"
-client_secret = "OGv3UTtMkV"
+client_id = "NAVER_CLIENT_ID" # 네이버 클라이언트 ID 
+client_secret = "NAVER_CLIENT_SECRET"  # 네이버 클라이언트 SECRET
 encText = urllib.parse.quote("성수 맛집")
 url = "https://openapi.naver.com/v1/search/blog?query=" + encText + "&display=100" # JSON 결과
 
