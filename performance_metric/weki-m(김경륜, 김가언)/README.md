@@ -31,8 +31,6 @@
 
 요청이 100번인 경우 시간 비교 결과
 
-![image](https://github.com/koorukuroo/pda_4th/assets/56223389/928ee66c-af17-4ea3-9e09-f68b2346ffef)
-
 
 | 아키텍처 | 인스턴스 유형 | 초당 요청 횟수(requests/sec) |  요청 시간 (seconds)|
 |----------|---------------|---------------------------|---------------------------|
@@ -52,6 +50,7 @@
 
 <br>
 
+![image](https://github.com/koorukuroo/pda_4th/assets/56223389/928ee66c-af17-4ea3-9e09-f68b2346ffef)
 
 ARM에서는 m(범용), intel(x86)에서 c가 초당 요청 횟수가 가장 많았고, 총 요청시간이 가장 짧은 것을 볼 수 있다.
 
