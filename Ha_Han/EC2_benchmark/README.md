@@ -1,12 +1,12 @@
 # EC2 벤치마크
 <br>
 
-# 공통 스펙
+## 공통 스펙
 
 - Intel x86 아키텍쳐
 - Ubuntu 22.04 LTS
 
-# 측정 내용
+## 측정 내용
 
 <img width="399" alt="Untitled" src="https://github.com/koorukuroo/pda_4th/assets/93638922/90c797df-83e0-4f65-b073-fcedda9139e9">
 <br>
@@ -14,7 +14,7 @@
 - Instance Family 별 성능 차이
 - 동일 Instance Family 내 Instance 크기 별 성능차이
 
-# 결과 요약
+## 결과 요약
 
 ---
 
@@ -36,13 +36,13 @@
 
 
 
-# 세부 내용
+## 세부 내용
 
 ---
 
 <br><br>
 
-## t2.micro VS t2.medium
+### t2.micro VS t2.medium
 
 
 ![Untitled](https://github.com/koorukuroo/pda_4th/assets/71596178/6dfdb19e-ffb1-425b-84c2-e160fab5c7eb)
@@ -52,7 +52,7 @@
 ![image](https://github.com/koorukuroo/pda_4th/assets/71596178/718f96be-49a8-44f9-bf72-7119f4024251)
 
 
-## r3.large VS r3.xlarge
+### r3.large VS r3.xlarge
 
 
 ![Untitled (4)](https://github.com/koorukuroo/pda_4th/assets/71596178/ca9aa8a4-94fb-4f4a-b58d-a1535249be4a)
@@ -62,12 +62,12 @@
 ![image](https://github.com/koorukuroo/pda_4th/assets/71596178/2184720b-9fea-4052-8cfb-decaacb57420)
 
 
-## CPU 사용 비교
+### CPU 사용 비교
 
 ![Untitled (8)](https://github.com/koorukuroo/pda_4th/assets/71596178/03b9d0bf-e9ec-45ae-8914-2c15dcb56ba1)
 
 
-## m5.large VS m5.xlarge
+### m5.large VS m5.xlarge
 
 ![m5 large](https://github.com/koorukuroo/pda_4th/assets/71596178/6af30b96-2ef9-4eb8-b038-8d94778c3965)
 ![m5 xlarge](https://github.com/koorukuroo/pda_4th/assets/71596178/fbf0066b-301e-474e-a7ea-33ea81f6502a)
@@ -76,7 +76,7 @@
 ![crawl_m5XL](https://github.com/koorukuroo/pda_4th/assets/71596178/2c29b309-bf12-46c3-a540-dfdbe753b315)
 
 
-## c5.large VS c5.xlarge
+### c5.large VS c5.xlarge
 
 ![c5 largge](https://github.com/koorukuroo/pda_4th/assets/71596178/dee22c55-66a9-4c0a-b206-6ae59dd5f553)
 ![c5xlarge](https://github.com/koorukuroo/pda_4th/assets/71596178/7d577708-16ca-454f-ae1e-e36175410e0b)
@@ -85,11 +85,11 @@
 ![cral_c5 XL](https://github.com/koorukuroo/pda_4th/assets/71596178/13e06e2e-78c9-45e5-911d-a8a50ef6a3d0)
 
 
-## CPU 사용 비교
+### CPU 사용 비교
 
 ![image](https://github.com/koorukuroo/pda_4th/assets/71596178/0c3e309e-939f-4fd3-9d72-18d4d9267949)
 
-# 정리
+## 정리
 
 ---
 
@@ -97,9 +97,9 @@
 
 - **CPU 연산에서 유의미한 차이가 존재**
 
-    2v CPU 기준 : c5 > t2 > m5 > r3
+    **2v CPU 기준** : c5 > t2 > m5 > r3
 
-    4v CPU 기준 : c5 > m5 > r3
+    **4v CPU 기준** : c5 > m5 > r3
     
     EC2의 최고 성능 CPU를 사용하는 C가 가장 빨랐으며, 그다음으로 성능 순간 확장에 특화된  T, 범용성이 좋은 M, 그리고 메인메모리를 우선적으로 하는 R 순으로 CPU연산 속도가 빨랐다.
     
