@@ -113,7 +113,7 @@ print(cnt)
 
 ![image](https://github.com/lemonticsoul/git22/assets/127959482/07a3168a-b983-41b9-84c3-3983730efd16)
 
-![image](https://github.com/koorukuroo/pda_4th/assets/127959482/940a74ee-18ee-4283-984e-565b5f18e26e)
+![image](https://github.com/koorukuroo/pda_4th/assets/127959482/3e3251d9-8c33-4a53-8091-87b2ab07e315)
 
 
 ### 결론
