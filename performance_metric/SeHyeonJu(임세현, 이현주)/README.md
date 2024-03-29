@@ -129,3 +129,8 @@ CPU 사용률을 비교해보았다.
 **결과 :** M5 인스턴스의 CPU 사용률이 M6g, C6g, R6g 인스턴스에 비해 적은 결과를 보여주었다.
 
 ![image](https://github.com/koorukuroo/pda_4th/assets/116863184/bed157a1-db3b-4b49-9453-7f5714ab784f)
+
+---
+
+![image](https://github.com/koorukuroo/pda_4th/assets/116863184/c69766e4-1dca-4b02-8d8e-e7dbb6f91326)
+
