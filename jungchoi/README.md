@@ -25,3 +25,11 @@ Members: 정원우 최경서
 |r7i.2xlarge|20.2677/2.4778| 20.6408/2.2273| 20.8087/2.0730
 
 *t2.nano의 경우 터짐
+
+## 각 인스턴스 유형별 성능 설명
+
+![image](https://github.com/koorukuroo/pda_4th/assets/59429729/dc8b27ac-9d72-4a9e-97a8-c7d28b6811c9)
+![image](https://github.com/koorukuroo/pda_4th/assets/59429729/a4839d66-f376-4935-8df6-4e462ee11d5e)
+![image](https://github.com/koorukuroo/pda_4th/assets/59429729/5a5665ed-a150-43ba-816e-e3023c27b816)
+![image](https://github.com/koorukuroo/pda_4th/assets/59429729/7011610a-7aab-481c-be36-1634d7bc041a)
+
