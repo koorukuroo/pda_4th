@@ -8,23 +8,9 @@
 2. 같은 크기이지만 패밀리가 다른 인스턴스 유형 차이 비교
 ![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/82942ba6-8f32-4003-8457-646f8d13690c)
 
-## 결과
 
-|EC2|CPU사용시간, 가용메모리|실행시간|
-|------|---|---|
-|t4g.micro|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/007a7ff6-2551-48c2-9786-b1a0e04efc91)|61.46846|
-|t4g.small|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/2ec4b926-b45c-41f6-8a48-8a303068319c)|61.80887|
-|t4g.medium|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/e4720cad-18bb-435a-86b0-d0a2c411ba41)|61.61022|
-|t4g.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/baa3f6b0-8fa2-4a09-bbbb-0faf41a5f463)|61.58268|
-|t4g.xlarge|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/68ab90cd-038a-431a-8bf0-be889783bdcf)|61.66919|
-
-|EC2|CPU사용시간, 가용메모리|실행시간|
-|------|---|---|
-|t4g.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/baa3f6b0-8fa2-4a09-bbbb-0faf41a5f463)|61.58268|
-|m6g.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/955adcef-a7b4-444d-b0d3-f214a6a00ef2)|61.48954|
-|c6g.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/0092f639-2328-435a-a764-4bf59f162722)|61.54917|
-|r6g.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/07f4ea09-a32d-48f9-bf46-6a0997b28888)|61.56287|
-|i3.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/776d423c-4c26-4b2f-9547-8582680f909a)|60.00059|
+## 실험 설계
+피보나치 수열 함수를 재귀적으로 호출하여 코드 실행 시간과 CPU 실행 시간, 메모리 가용량을 측정하였습니다.
 
 ## 사용코드
 ```python
@@ -70,6 +56,25 @@ with open('performance_data.csv', mode='w', newline='') as file:
 execution_time = end_time - start_time
 print(f"실행 시간: {execution_time:.5f} 초")
 ```
+
+## 결과
+
+|EC2|CPU사용시간, 가용메모리|실행시간|
+|------|---|---|
+|t4g.micro|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/007a7ff6-2551-48c2-9786-b1a0e04efc91)|61.46846|
+|t4g.small|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/2ec4b926-b45c-41f6-8a48-8a303068319c)|61.80887|
+|t4g.medium|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/e4720cad-18bb-435a-86b0-d0a2c411ba41)|61.61022|
+|t4g.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/baa3f6b0-8fa2-4a09-bbbb-0faf41a5f463)|61.58268|
+|t4g.xlarge|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/68ab90cd-038a-431a-8bf0-be889783bdcf)|61.66919|
+
+|EC2|CPU사용시간, 가용메모리|실행시간|
+|------|---|---|
+|t4g.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/baa3f6b0-8fa2-4a09-bbbb-0faf41a5f463)|61.58268|
+|m6g.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/955adcef-a7b4-444d-b0d3-f214a6a00ef2)|61.48954|
+|c6g.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/0092f639-2328-435a-a764-4bf59f162722)|61.54917|
+|r6g.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/07f4ea09-a32d-48f9-bf46-6a0997b28888)|61.56287|
+|i3.large|![image](https://github.com/jiyeon5/jiyeon5/assets/49721857/776d423c-4c26-4b2f-9547-8582680f909a)|60.00059|
+
 
 ## 결론
 ec2 인스턴스 크기가 커져도 별로 유의미한 실행속도의 차이를 얻지 못했습니다.  
