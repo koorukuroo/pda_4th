@@ -1,7 +1,7 @@
 ## 테스트 환경
 * Anaconda를 설치하여 파이썬 코드를 서버에서 실행시켰습니다.
 * os는 ubuntu를 사용했습니다.
-* 인스턴스 유형은 t2.micro와 t2.medium를 사용
+* 인스턴스 유형은 t2.micro와 t2.medium,c5.large,m5.large를 사용
 * AMI는 amd64입니다.
 
 ## 코드
@@ -72,7 +72,7 @@ if __name__ == "__main__":
 |for문|119.37|111.98|43.99|51.17|
 
 ## 이슈
-1. 크롤링을 실행하였을 때 t2.medium이 t2.mircro보다 20배 느리게 나오는 문제
+1. 크롤링을 실행하였을 때 t2.medium이 t2.micro보다 20배 느리게 나오는 문제
    - 문제점 : 서로 다른 리전 설정(t2.medium:미국북부 , t2.micro:서울)
    - 해결 : 리전 동기화
 2. for문을 실행할때 t2.medium이 t2.mircro보다 빨랐지만 크롤링에서는 비슷한 문제
