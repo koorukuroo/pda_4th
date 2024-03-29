@@ -63,3 +63,64 @@ t3.micro보다 t3.xlarge의 스펙이 다방면으로 높아
 
 <img width="635" alt="image" src="https://github.com/koorukuroo/pda_4th/assets/101380919/cb7fefb4-62e7-4f2b-a0b9-beaedda06781">
 
+## 코드
+
+```python
+import time
+import psutil
+import multiprocessing
+def heavy_cpu_task(start, end, result_queue):
+    result = 0
+    # 많은 계산을 수행하여 CPU를 사용함
+    for i in range(start, end):
+        result += i
+    result_queue.put(result)  # 결과를 Queue에 넣음
+def monitor_system_performance(interval=1, stop_event=None):
+    while not stop_event.is_set():
+        # CPU 사용량 및 부하 가져오기
+        cpu_percent = psutil.cpu_percent(interval=1)
+        cpu_freq = psutil.cpu_freq()
+        cpu_temp = psutil.sensors_temperatures()
+        print("CPU 사용량:", cpu_percent, "%")
+        print("CPU 주파수 (현재/최소/최대):", cpu_freq.current, "/", cpu_freq.min, "/", cpu_freq.max, "MHz")
+        if 'coretemp' in cpu_temp:
+            print("CPU 온도:", cpu_temp['coretemp'][0].current, "°C")
+        print("----------------------------------")
+        time.sleep(interval)
+if __name__ == "__main__":
+    start_total_time = time.time()  # 프로그램 시작 시간 기록
+    print("시스템 성능 모니터링을 시작합니다.")
+    # 성능 모니터링 스레드 시작
+    monitor_interval = 1  # 모니터링 간격 (초)
+    stop_event = multiprocessing.Event()  # 이벤트를 멀티프로세스용으로 변경
+    monitor_thread = multiprocessing.Process(target=monitor_system_performance, args=(monitor_interval, stop_event))
+    monitor_thread.start()
+    # CPU 사용량이 많은 작업 실행
+    num_processes = psutil.cpu_count(logical=True)  # 사용 가능한 논리 코어 수
+    chunk_size = 10**8 // num_processes  # 각 프로세스가 처리할 범위의 크기
+    processes = []
+    result_queue = multiprocessing.Queue()  # 결과를 저장할 Queue 생성
+    for i in range(num_processes):
+        start = i * chunk_size + 1
+        end = start + chunk_size
+        process = multiprocessing.Process(target=heavy_cpu_task, args=(start, end, result_queue))
+        process.start()
+        processes.append(process)
+    # 모든 프로세스가 종료될 때까지 대기하고 결과를 수집
+    for process in processes:
+        process.join()
+    # 결과 출력
+    results = []
+    while not result_queue.empty():
+        result = result_queue.get()
+        results.append(result)
+    # 성능 모니터링 스레드 종료
+    stop_event.set()
+    monitor_thread.join()
+    end_total_time = time.time()  # 프로그램 종료 시간 기록
+    total_execution_time = end_total_time - start_total_time  # 총 실행 시간 계산
+    # 결과 출력
+    for i, result in enumerate(results):
+        print(f"프로세스 {i}: CPU 작업 완료 - 결과: {result}")
+    print("총 실행 시간:", total_execution_time, "초")
+```
