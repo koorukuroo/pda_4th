@@ -42,14 +42,14 @@ ARM 기반 아키텍처를 사용하는 t4g와 인텔의 x86 아키텍처를 사
 
 동시성이 1일때 x86프로세서와 arm프로세서의 성능차이가 크다고 판단되어 동시성을 올려 추가 테스트를 진행했습니다.
 
-#### 20명이 동시에 20명 접속할 때  
+#### 20명이 동시에 접속할 때( request : 20 concurrency : 20 ) 
 
 | 인스턴스-아키텍처 | Time taken for tests | Request per second | Time per Request | Time per Request(across all concurrent requests) |
 | ----------------- | -------------------- | ------------------ | ---------------- | ---------------- |
 | M6g.large-Arm     | 0.006sec           |  3138.24[#/sec]     | 6.373ms  | 0.319ms |
 | M6i.large-x86     | 0.005sec             | 4131.38[#/sec]      | 4.841ms          | 0.242ms |  
 
-#### 400명이 동시에 40명 접속할 때
+#### 40명이 동시에 접속할 때( request: 400 concurrency : 40)
 
 | 인스턴스-아키텍처 | Time taken for tests | Request per second | Time per Request | Time per Request(across all concurrent requests) |
 | ----------------- | -------------------- | ------------------ | ---------------- | ---------------- |
