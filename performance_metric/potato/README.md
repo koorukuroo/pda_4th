@@ -12,6 +12,8 @@
 | m5.xlarge | 2.64(s)   | 2.24(s)   | 2.37(s) | 2.18(s) | 2.49(s) | 2.376(s)|
 | t3.small  | 2.99(s)   | 2.48(s)   | 2.47(s) | 2.46(s) | 2.72(s) | 2.624(s)|
 
+![image](https://github.com/koorukuroo/pda_4th/assets/117283341/d19e46ee-3b9b-4fef-a38c-6d1f55ad93f3)
+
 
 ### 하노이 탑 문제 해결
 |       | m5.xlarge(22)- 420만 | t3.small (22) | m5.xlarge(23) | t.small(23) -840만 | m5.xlarge(24) | t.small(24) 1670만 | m5.xlarge(25) | t.small (25) 3300만 |
