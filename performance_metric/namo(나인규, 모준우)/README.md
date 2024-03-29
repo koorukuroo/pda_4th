@@ -1,3 +1,76 @@
+# 🚩 Namo 팀 인스턴스 별 성능비교
+
+## 각 인스턴스의 특징
+
+1. **m4**: 범용 사용을 위한 인스턴스.
+   웹 서버 및 코드 리포지토리와 같이 이러한 리소스를 동등한 비율로 사용하는 애플리케이션에 적합합니다.
+2. **i4i**: 인텔 Xeon 프로세서와 4GB의 인스턴스 메모리를 제공합니다.
+3. **t2**: 일반용 티 모드 인스턴스로 저렴한 비용으로 제공됩니다.
+4. **r2**: 메모리 중심의 최적화된 인스턴스로 메모리 및 CPU가 향상되었습니다.
+5. **c5**: 컴퓨팅 집중형 워크로드를 위한 최신 세대의 인스턴스입니다.
+6. **d2**: 디스크 집중형 워크로드를 위한 대용량 디스크를 제공하는 인스턴스입니다.
+
+## 실행 방법
+
+1. 각 인스턴스에 접속
+2. 리눅스 CLI에서 원하는 폴더를 만들고, C 파일 생성
+3. C 파일을 컴파일하여 실행
+4. 각 실행 시간을 비교/분석 및 시각화
+
+# 주제
+
+## 성능 측정을 위한 C 언어 실행
+
+본 프로젝트는 여러 인스턴스에서 C 언어로 작성된 정렬 알고리즘 코드의 실행 시간을 측정하고자 합니다. 각 인스턴스는 다음과 같은 특징을 가지고 있습니다.
+
+<br>
+
+### 2. 인스턴스 유형
+
+`c5`&nbsp; / &nbsp; `i4i`&nbsp; /&nbsp; `m4` / &nbsp; `t2` / &nbsp; `r2` / &nbsp; `d2`
+
+### 유형별 크기
+
+- CPU별 비교를 위해 유형별 크기는 xlarge로 통일
+
+## 인스턴스 환경
+
+- OS
+  - Canonical, Ubuntu, 22.04, ams64 jammy image
+- 스토리지
+  - (32G, gp3)
+
+<br>
+
+## 결과 시각화
+
+각 인스턴스에서 실행한 코드의 실행 시간을 시각화하여 비교합니다. 또한 각 인스턴스의 온디맨드 요금을 시각화하여 비교합니다
+
+### 인스턴스 별 정렬 알고리즘 실행시간
+
+![alt text](result_image/InstanceType.png)
+
+### 인스턴스 별 정렬 알고리즘 총 실행시간
+
+![alt text](result_image/ExecutionTime.png)
+
+### 인스턴스 별 온디맨드 가격(kor)
+
+![alt text](result_image/TotalPrice.png)
+
+# 결론
+
+- 성능 비교시 사용한 코드의 인아웃풋이 많지 않아서
+  유의미한 비교가 어렵다.
+  추후 더 복잡한 시스템을 통해 확인할 예정
+- 연산의 성능이 가장 크게 고려되는 상황에선 c5를 사용하는 것이
+  실행시간 측면에서 효율적이다.
+
+<br>
+
+# 크롤링 코드
+
+```c
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
@@ -259,3 +332,75 @@ int main(void) {
     printf("All Time: %lf -> ", all_time / 1000.0);
 	return 0;
 }
+```
+
+#시각화 코드
+
+```python
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
+
+# 예제 데이터 프레임 생성
+data = {
+    'Instance Type': ['c5.xlarge', 'i4i.xlarge', 'm4.xlarge', 't2.xlarge','d2.2xlarge','r4.xlarge'],
+
+    'Insertion': [6.10775, 6.14215, 9.572034, 8.62943, 8.91265,8.595115],
+    'Quick': [12.83, 13.179, 20.087, 16.697,16.956,16.651],
+    'Merge': [16.83, 15.807, 26.43, 20.375,20.735,20.274],
+    'Heap': [25, 26.73, 40.75, 34.258,35.412,34.2],
+    'Selection': [2.12, 1.987, 3.282, 2.54, 2.55,2.499],
+
+}
+instance_types = ['c5.xlarge', 'i4i.xlarge', 'm4.xlarge', 't2.xlarge','d2.2xlarge','r4.xlarge']
+total_execution_times = [6165, 6199, 9622, 8703,8988,8669]
+
+# 막대 그래프 시각화
+plt.bar(instance_types, total_execution_times, color='skyblue')
+plt.xlabel('Instance Type')
+plt.ylabel('Total Execution Time')
+plt.title('Execution Time by Instance Type')
+plt.xticks(rotation=45)
+plt.show()
+
+On_demand_Price_KOR= [230.4, 483.6, 295.2, 276.48,319.2,2025.6]
+
+
+plt.bar(instance_types, On_demand_Price_KOR, color='skyblue')
+plt.xlabel('Instance Type')
+plt.ylabel('Total Price')
+plt.title('Total by Instance Type')
+plt.xticks(rotation=45)
+plt.show()
+
+plt.figure(figsize=(10, 6))
+
+# 각 데이터 시리즈에 대해 선 그래프 그리기
+for column in df.columns[1:]:
+    plt.plot(df['Instance Type'], df[column], marker='o', label=column)
+
+plt.title('Instance Type Comparison')
+plt.xlabel('Instance Type')
+plt.ylabel('Time')
+plt.legend()
+plt.grid(True)
+plt.show()
+
+
+# Team
+
+- Na In Gyu :
+  - 알고리즘 코드 작성
+  - d2,m4,t2,r4 실행
+  - 성능 분석
+- Mo Joon Woo :
+  - c5,i4i 실행
+  - README 작성
+  - 발표
+
+### 출처
+
+앞선 팀의 README.md 를 참고했습니다.
+```
