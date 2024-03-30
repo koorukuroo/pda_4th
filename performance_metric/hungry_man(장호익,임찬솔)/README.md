@@ -40,37 +40,54 @@ D : 스토리지 최적화.
 D2의 사용 프로세서
  • 고주파수 인텔 제온 스케일러블 프로세서(하스웰 E5-2676 v3)
 
-![image](https://github.com/koorukuroo/pda_4th/assets/68230815/22d4c844-c3eb-4969-a639-c182fe2ff890)
+![image](https://github.com/koorukuroo/pda_4th/assets/68230815/22d4c844-c3eb-4969-a639-c182fe2ff890)    
 
 
 
 
 
-<div>
+<div align="center">
 인스턴스 성능비교
 </div>
+    
+<div align="center">
 
 ![image](https://github.com/JangHoIk1/AWS/assets/94967088/a35c29fb-d703-4618-a890-a388e88cef5b)
 
+![image](https://github.com/JangHoIk1/AWS/assets/94967088/5f75b723-9cb0-46bd-8e38-63b2200f3a78)        
 
-![image](https://github.com/JangHoIk1/AWS/assets/94967088/5f75b723-9cb0-46bd-8e38-63b2200f3a78)
+
+</div>
 
 
-t4g.micro vs t4g.2xlarge
+
+
+<div align="center">
+<H3>t4g.micro vs t4g.2xlarge</H3>
 
 ![image](https://github.com/JangHoIk1/AWS/assets/94967088/75ae2a07-5fd7-4caa-86dc-af7a49bd16ec)
-![image](https://github.com/JangHoIk1/AWS/assets/94967088/7e431aeb-e285-432c-b3e3-bb82a8a2f33d)
 
 
-t4 시리즈 -> AWS Graviton2 프로세서 사용
+t4 시리즈  AWS Graviton2 프로세서 사용  
 c7 시리즈 -> AWS Graviton3 프로세서 사용
 
+
 AWS Gravition 3는 AWS Graviton2 기반 인스턴스에 비해 최대 25% 더 뛰어난 성능을 제공
+
+
 
 ![image](https://github.com/JangHoIk1/AWS/assets/94967088/451fe4dc-83d9-49eb-881b-ad36524d9ef5)
 
 
-![image](https://github.com/JangHoIk1/AWS/assets/94967088/5ea9fd5e-5660-429f-a569-8c2a59722444)
-![image](https://github.com/JangHoIk1/AWS/assets/94967088/017a1ba1-22cf-4531-8a39-58208e85d72d)
+</div>
 
-가격 차이에 따른 성능
+
+<div align="center">
+<H3>가격 차이에 따른 성능</H3>
+</div>
+
+
+<div style="display: flex; flex-direction: row;">
+    <img src="https://github.com/JangHoIk1/AWS/assets/94967088/5ea9fd5e-5660-429f-a569-8c2a59722444" width="400" />
+    <img src="https://github.com/JangHoIk1/AWS/assets/94967088/017a1ba1-22cf-4531-8a39-58208e85d72d" width="400" />
+</div>
