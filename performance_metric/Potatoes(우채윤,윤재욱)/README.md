@@ -1,7 +1,7 @@
 # AWS
 AWS(성능비교)
 
-## 1. t4g.xlarge vs t4g.micro
+## 1. t4.xlarge vs t4.micro
 
 가격 비교: 0.1664 USD vs 0.0104 USD
 
@@ -19,7 +19,7 @@ AWS(성능비교)
 
 <br/>
 
-- t4g.xlarge(4.81s)가 t4g.micro(12.04s)보다 세배 가량 빠르다 
+- t4.xlarge(4.81s)가 t4.micro(12.04s)보다 세배 가량 빠르다 
 
 ### cpu 사용량
 
@@ -30,7 +30,7 @@ AWS(성능비교)
 
 <br/>
 
-- 가장 높은 수치를 기준으로 t4g.xlarge(1.49%)가 t4g.micro(6.87%)에 비해 4배 가량 cpu사용량이 적다 
+- 가장 높은 수치를 기준으로 t4.xlarge(1.49%)가 t4.micro(6.87%)에 비해 4배 가량 cpu사용량이 적다 
 
 ## 2. m6g.2xlarge vs t3.2xlarge
 
@@ -51,7 +51,7 @@ AWS(성능비교)
 
 <br/>
 
-- m6.2xlarge(4.20s)가 t3.2xlarge(4.34s)보다 빠르다 
+- m6g.2xlarge(4.20s)가 t3.2xlarge(4.34s)보다 빠르다 
 
 
 ### cpu 사용량
@@ -63,7 +63,7 @@ AWS(성능비교)
 
 <br/>
 
-- 가장 높은 수치를 기준으로 t3.2xlarge(0.877%) m6.2xlarge(1.67%)에 비해 2배 가량 cpu사용량이 적다 
+- 가장 높은 수치를 기준으로 t3.2xlarge(0.877%) m6g.2xlarge(1.67%)에 비해 2배 가량 cpu사용량이 적다 
 
 
 ## 3. t3.xlarge vs t4.xlarge
@@ -101,7 +101,7 @@ AWS(성능비교)
 
 <br/>
 
-- 가장 높은 수치를 기준으로 t3.xlarge(0.783%) m6.2xlarge(1.49%)에 비해 2배 가량 cpu사용량이 적다
+- 가장 높은 수치를 기준으로 t3.xlarge(0.783%) t4.xlarge(1.49%)에 비해 2배 가량 cpu사용량이 적다
 
 
  ### 보아야될 사항
